@@ -1,16 +1,16 @@
 import React from 'react';
-import { artists } from '../data';
+import { writers } from '../data';
 
-const Artists = () => {
+const Writers = () => {
     return (
         <div>
-            <h1>Artists Page</h1>
-            {artists.map((artist, index) => (
+            <h1>Writers Page</h1>
+            {writers.map((writers, index) => (
                 <div key={index}>
-                    <h3>Name: {artist.name}</h3>
+                    <h3>Name: {writers.name}</h3>
                     <p>Songs:</p>
                     <ul>
-                        {artist.songs.map((song, index) => (
+                        {writers.songs.map((song, index) => (
                             <li key={index}>{song}</li>
                         ))}
                     </ul>
@@ -18,5 +18,6 @@ const Artists = () => {
             ))}
         </div>
     );
-};
-export default Artists;
+}
+
+export default Writers

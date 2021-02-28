@@ -31,11 +31,11 @@ let writers = [
     },
     {
         name: 'Bob Marley',
-        movies: ['In This Love']
+        songs: ['In This Love']
     },
     {
         name: 'Turky Al Sheekh',
-        movies: ['Ya Agmal 3oyoon', 'A7la 7aga']
+        songs: ['Ya Agmal 3oyoon', 'A7la 7aga']
     }
 ]
 
